@@ -31,7 +31,7 @@ def predict():
     final_input = scalar.transform(data_array)
     print(final_input)
     output = model.predict(final_input)[0]
-    return render_template("home.html", prediction_text="The predicted house price is {}".format(output))
+    return render_template("home.html", prediction_text="The predicted house price is = {}".format(output))
 
 
 if __name__=="__main__":
