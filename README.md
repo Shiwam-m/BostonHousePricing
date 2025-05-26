@@ -6,8 +6,3 @@
 3. [VsCodeIDE](https://code.visualstudio.com)
 4. [Git CLI](https://git-scm.com)
 
-- Create a new environment     
-python -m venv venv              
-Activate : venv\Scripts\activate     
-Deactivate : deactivate    
-
